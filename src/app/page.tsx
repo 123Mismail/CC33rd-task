@@ -1,12 +1,19 @@
-import Image from "next/image";
-import MyStyledIcon, { MyIcon } from "./icons/iconNext";
-import TailwindSvg from "./icons/iconNext";
-import QuizApp from "@/components/QuizApp";
-import Heading from "@/components/Heading";
 
-export default function Home() {
-  return (<div> 
-    <Heading/>
-    <QuizApp/>
-  </div>  );
+import Footer from '@/components/Footer'
+import Gallary from '@/components/Gallary'
+import Header from '@/components/Header'
+import Herosection from '@/components/Herosection'
+import Testimonial from '@/components/Testimonial'
+import React from 'react'
+
+function page() {
+  return (<>
+
+  
+     <Herosection/>
+     <Gallary/>
+     <Testimonial/>
+    </>)
 }
+
+export default page
